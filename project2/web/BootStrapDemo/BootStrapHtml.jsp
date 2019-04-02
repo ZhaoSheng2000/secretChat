@@ -55,7 +55,7 @@
                 <li class="active"><a href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">主页</a></li>
                 <li><a href="http://localhost:8080/project1/HTML/css.jsp" target="_blank">作品</a></li>
                 <li><a href="#">关于</a></li>
-                <li><a href="../JavaScriptDemo/ConnectWithMe.jsp">联系</a></li>
+                <li><a href="http://localhost:8080/project2/JavaScriptDemo/ConnectWithMe.jsp">联系</a></li>
             </ul>
         </div>
     </div>
