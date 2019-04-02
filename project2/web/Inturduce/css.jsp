@@ -44,7 +44,7 @@
 </div>
 
 <%--导航栏--%>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -57,7 +57,38 @@
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
                 <li><a href="BootStrapHtml.jsp">主页</a></li>
-                <li><a href="css.jsp">作品</a></li>
+                <li class="dropdown">
+                    <a href="css.jsp" class="dropdown-toggle" data-toggle="dropdown">
+                        CSS <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#con1">什么是CSS？</a> </li>
+                        <li><a href="#con2">CSS规则</a></li>
+                        <li><a href="#con3">css id和class选择器</a></li>
+                        <li><a href="#con4.0">CSS插入样式表</a></li>
+                        <li><a href="#con4">CSS背景</a></li>
+                        <li><a href="#con5">CSS文本格式</a></li>
+                        <li><a href="#con6">文本转换</a></li>
+                        <li><a href="#con7">CSS link（链接）</a></li>
+                        <li><a href="#con8">CSS ul（列表）</a> </li>
+                        <li><a href="#con9">CSS 表格</a> </li>
+                        <li><a href="#con9.0">CSS broder（边框）</a></li>
+                        <li><a href="#con10">CSS margin（外边框）</a></li>
+                        <li><a href="#con11">CSS填充 padding（填充）</a></li>
+                        <li><a href="#con12">CSS分组选择器和嵌套选择器</a></li>
+                        <li><a href="#con13">CSS Dimension（尺寸）</a></li>
+                        <li><a href="#con14">CSS Display(显示)与Visibility(可见性)</a></li>
+                        <li><a href="#con15">CSS布局-Overflow</a> </li>
+                        <li><a href="#con16">CSS Float(浮动)</a> </li>
+                        <li><a href="#con17">CSS position(定位)</a> </li>
+                        <li><a href="#con18">CSS布局—对齐方式</a></li>
+                        <li><a href="#con19">CSS组合选择符</a> </li>
+                        <li><a href="#con20">CSS导航栏</a> </li>
+                        <li><a href="#con21">CSS下拉菜单</a> </li>
+                        <li><a href="#con22">CSS提示工具</a> </li>
+                        <li><a href="#con23">CSS图像透明度</a> </li>
+                    </ul>
+                </li>
                 <li><a href="#">关于</a></li>
                 <li><a href="ConnectWithMe.jsp">联系</a></li>
             </ul>
@@ -67,40 +98,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-4">
-            <h3>CONTENT</h3>
-            <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#con1">什么是CSS？</a> </li>
-                <li><a href="#con2">CSS规则</a></li>
-                <li><a href="#con3">css id和class选择器</a></li>
-                <li><a href="#con4.0">CSS插入样式表</a></li>
-                <li><a href="#con4">CSS背景</a></li>
-                <li><a href="#con5">CSS文本格式</a></li>
-                <li><a href="#con6">文本转换</a></li>
-                <li><a href="#con7">CSS link（链接）</a></li>
-                <li><a href="#con8">CSS ul（列表）</a> </li>
-                <li><a href="#con9">CSS 表格</a> </li>
-                <li><a href="#con9.0">CSS broder（边框）</a></li>
-                <li><a href="#con10">CSS margin（外边框）</a></li>
-                <li><a href="#con11">CSS填充 padding（填充）</a></li>
-                <li><a href="#con12">CSS分组选择器和嵌套选择器</a></li>
-                <li><a href="#con13">CSS Dimension（尺寸）</a></li>
-                <li><a href="#con14">CSS Display(显示)与Visibility(可见性)</a></li>
-                <li><a href="#con15">CSS布局-Overflow</a> </li>
-                <li><a href="#con16">CSS Float(浮动)</a> </li>
-                <li><a href="#con17">CSS position(定位)</a> </li>
-                <li><a href="#con18">CSS布局—对齐方式</a></li>
-                <li><a href="#con19">CSS组合选择符</a> </li>
-                <li><a href="#con20">CSS导航栏</a> </li>
-                <li><a href="#con21">CSS下拉菜单</a> </li>
-                <li><a href="#con22">CSS提示工具</a> </li>
-                <li><a href="#con23">CSS图像透明度</a> </li>
-            </ul>
-            <hr class="hidden-sm hidden-md hidden-lg">
-        </div>
-
         <%--文章内容--%>
-        <div class="col-sm-8">
+        <div class="col-md-12 ">
             <h2 id="con1">什么是CSS？</h2>
             <p>CSS 指层叠样式表 (Cascading Style Sheets)<br>
                 样式通常存储在样式表中<br>

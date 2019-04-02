@@ -34,6 +34,7 @@
             text-align: center;
         }
         .footer{
+
             margin: auto;
             padding: 48px;
             background-color: #f6f6f6;
@@ -82,7 +83,7 @@
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="BootStrapHtml.jsp">主页</a></li>
-                <li><a href="css.jsp">作品</a></li>
+                <li><a href="css.jsp">CSS</a></li>
                 <li><a href="#">关于</a></li>
                 <li><a href="ConnectWithMe.jsp">联系</a></li>
             </ul>
