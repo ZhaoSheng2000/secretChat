@@ -29,9 +29,9 @@
 
 <head>
     <title>CSS</title>
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="jquery-3.3.1.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../../project1/web/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../../../project1/web/HTML/jquery-3.3.1.min.js"></script>
+    <script src="../../../project1/web/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -326,7 +326,7 @@
             <br>
 
             <h2 id="con10">CSS外边距（margin）</h2>
-            <img src="images/waibiankuang.png" width="600" height="300">
+            <img src="../../../project1/web/HTML/images/waibiankuang.png" width="600" height="300">
             <li>margin清除周围的元素区域，margin没有背景颜色</li>
             <li>可以单独改变元素的上下左右边框，也可以一次改变所有属性</li>
             <pre>

@@ -9,7 +9,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="../JavaScriptDemo/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <title>CONNECTED WITH ME</title>
     <style type="text/css">
