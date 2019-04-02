@@ -48,14 +48,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">KING</a>
+            <a class="navbar-brand" href="#">KING</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">主页</a></li>
-                <li><a href="http://localhost:8080/project1/HTML/css.jsp" target="_blank">作品</a></li>
+                <li class="active"><a href="BootStrapHtml.jsp">主页</a></li>
+                <li><a href="css.jsp">作品</a></li>
                 <li><a href="#">关于</a></li>
-                <li><a href="http://localhost:8080/project2/JavaScriptDemo/ConnectWithMe.jsp">联系</a></li>
+                <li><a href="ConnectWithMe.jsp">联系</a></li>
             </ul>
         </div>
     </div>

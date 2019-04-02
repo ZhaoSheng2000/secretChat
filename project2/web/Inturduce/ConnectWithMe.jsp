@@ -9,7 +9,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <title>CONNECTED WITH ME</title>
     <style type="text/css">
@@ -77,14 +77,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">KING</a>
+            <a class="navbar-brand" href="#">KING</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">主页</a></li>
-                <li><a href="http://localhost:8080/project1/HTML/css.jsp" target="_blank">作品</a></li>
+                <li class="active"><a href="BootStrapHtml.jsp">主页</a></li>
+                <li><a href="css.jsp">作品</a></li>
                 <li><a href="#">关于</a></li>
-                <li><a href="../JavaScriptDemo/ConnectWithMe.jsp">联系</a></li>
+                <li><a href="ConnectWithMe.jsp">联系</a></li>
             </ul>
         </div>
     </div>

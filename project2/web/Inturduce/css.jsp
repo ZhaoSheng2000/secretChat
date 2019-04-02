@@ -29,9 +29,9 @@
 
 <head>
     <title>CSS</title>
-    <link rel="stylesheet" href="../../../project1/web/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="../../../project1/web/HTML/jquery-3.3.1.min.js"></script>
-    <script src="../../../project1/web/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -52,14 +52,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">KING</a>
+            <a class="navbar-brand" href="#">KING</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li><a href="http://localhost:8080/project2/BootStrapDemo/BootStrapHtml.jsp">主页</a></li>
-                <li><a href="http://localhost:8080/project1/HTML/css.jsp" target="_blank">作品</a></li>
+                <li><a href="BootStrapHtml.jsp">主页</a></li>
+                <li><a href="css.jsp">作品</a></li>
                 <li><a href="#">关于</a></li>
-                <li><a href="http://localhost:8080/project2/JavaScriptDemo/ConnectWithMe.jsp">联系</a></li>
+                <li><a href="ConnectWithMe.jsp">联系</a></li>
             </ul>
         </div>
     </div>
@@ -326,7 +326,7 @@
             <br>
 
             <h2 id="con10">CSS外边距（margin）</h2>
-            <img src="../../../project1/web/HTML/images/waibiankuang.png" width="600" height="300">
+            <img src="../imgs/waibiankuang.png" width="600" height="300">
             <li>margin清除周围的元素区域，margin没有背景颜色</li>
             <li>可以单独改变元素的上下左右边框，也可以一次改变所有属性</li>
             <pre>
