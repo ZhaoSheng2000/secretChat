@@ -18,7 +18,7 @@
             color: #929292;
             background-color: aliceblue;
             border: solid 1px #c3c3c3;
-            margin: 20px 750px 10px 750px;
+            margin-bottom: auto;
         }
         #panel
         {
