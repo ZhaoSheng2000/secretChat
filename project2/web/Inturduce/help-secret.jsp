@@ -2,16 +2,16 @@
   Created by IntelliJ IDEA.
   User: mac
   Date: 2019-04-08
-  Time: 10:39
+  Time: 17:17
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Secret</title>
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <title>H E L P</title>
     <style>
         .footer_banquan{
             float: right;
@@ -61,5 +61,15 @@
         </div>
     </div>
 </nav>
+
+<%--footer--%>
+    <div class="jumbotron text-center" style="margin-bottom:0 ">
+        <div class="footer">
+            <div class="footer_youlian"><a href="http://www.zzuli.edu.cn/" target="_blank">郑州轻工业大学</a></div>
+            <div class="footer_banquan">
+                Copyright 2019 © All Rights Reserved.
+            </div>
+        </div>
+</div>
 </body>
 </html>
