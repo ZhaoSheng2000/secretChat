@@ -13,6 +13,11 @@
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <title>H E L P</title>
     <style>
+        body{
+            padding: 100px;
+
+        }
+
         .footer_banquan{
             float: right;
             font-size: 15px;
@@ -21,7 +26,7 @@
         }
         .footer_youlian{
             float: left;
-            margin-left: 600px;
+            margin-left: 45%;
             padding: 0 15px;
             font-size: 15px;
             color: #929292;
@@ -30,12 +35,34 @@
         .footer_youlian a:link{text-decoration-line: none;color: #929292}
         .footer_youlian a:hover{text-decoration-line: none;color: blue;}
         .footer_youlian a:visited{text-decoration-line: none; color: #929292}
+
+        .left-top {
+            position: fixed;
+            left: 3.5em;
+            top: 60%;
+            transform: rotate(-90deg);
+            transform-origin: left;
+            color: #999;
+            font-weight: bold;
+            display: block;
+        }
+
+        .right-top {
+            position: fixed;
+            right: 3em;
+            top: 40%;
+            transform: rotate(-90deg);
+            transform-origin: right;
+            color: #999;
+            font-weight: bold;
+            display: block;
+        }
     </style>
 </head>
 <body>
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#dedede">
-    <img src="../imgs/secret.png">
+    <img src="../imgs/secret2.png">
     <blockquote>
         <small>Talk to others about your secrets<cite title="Source Title"></cite></small>
     </blockquote>
@@ -53,23 +80,38 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">主页</a></li>
-                <li><a href="#">帮助</a></li>
-                <li><a href="#">关于</a></li>
-                <li><a href="ConnectWithMe.jsp" target="_blank">联系</a></li>
+                <li class="active"><a href="welcome-secret.jsp">
+                    <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
+                </a></li>
+                <li><a href="about-secret.jsp">
+                    <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
+                <li><a href="ConnectWithMe-secret.jsp">
+                    <span class="glyphicon glyphicon-user" style="color: #9d9d9d; font-size: 15px;"> 联系</span>
+                </a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<%--footer--%>
-    <div class="jumbotron text-center" style="margin-bottom:0 ">
-        <div class="footer">
-            <div class="footer_youlian"><a href="http://www.zzuli.edu.cn/" target="_blank">郑州轻工业大学</a></div>
-            <div class="footer_banquan">
-                Copyright 2019 © All Rights Reserved.
-            </div>
+<%--left-top--%>
+<div class="left-top">
+    <p>- NO WORRIES -</p>
+</div>
+<%--right-top--%>
+<div class="right-top">
+    <p> - HAPPY EVERY DAY - </p>
+</div>
+
+<div class="jumbotron text-center" style="padding: 70px">
+    <div class="footer">
+        <div class="footer_youlian"><a href="http://www.zzuli.edu.cn/" target="_blank" >郑州轻工业大学</a></div>
+        <div class="footer_banquan">
+            Copyright 2019 © All Rights Reserved.
         </div>
+    </div>
 </div>
 </body>
 </html>
