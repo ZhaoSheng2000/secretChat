@@ -130,10 +130,21 @@
             </div>
         </div>
         <div class="item">
+            <img alt="" src="../imgs/top2.jpg" width="1200" height="200"/>
+            <div class="carousel-caption">
+                <h4>
+                    pra 3.
+                </h4>
+                <p>
+                    some words.
+                </p>
+            </div>
+        </div>
+        <div class="item">
             <img alt="" src="../imgs/top3.jpg" width="1200" height="200"/>
             <div class="carousel-caption">
                 <h4>
-                    pra 3
+                    pra 4.
                 </h4>
                 <p>
                     some words.
@@ -160,29 +171,12 @@
                             <a class="btn btn-primary btn-large" href="#">Learn more</a>
                         </p>
                     </div>
-                </div>
-                <div class="col-md-6 column" style="padding: 0px 90px 0px 0px">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item active">Home</a>
-                        <div class="list-group-item">
-                            List header
-                        </div>
-                        <div class="list-group-item">
-                            <h4 class="list-group-item-heading">
-                                List group item heading
-                            </h4>
-                            <p class="list-group-item-text">
-                                ...
-                            </p>
-                        </div>
-                        <div class="list-group-item">
-                            <span class="badge">14</span> Help
-                        </div> <a class="list-group-item active"> <span class="badge">14</span> Help</a>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 <%--left-top--%>
 <div class="left-top">
