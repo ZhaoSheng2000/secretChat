@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>S E C R E T</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -76,12 +77,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">SECRET</a>
+            <a class="navbar-brand " href="#">SECRET</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">
-                    <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
+                    <span class="glyphicon glyphicon-th-large " style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
                 <li><a href="help-secret.jsp">
                     <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
