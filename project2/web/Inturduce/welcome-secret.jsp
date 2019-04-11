@@ -16,6 +16,7 @@
     <style>
         body{
             padding: 100px;
+            background-color: #eeeeee;
 
         }
 
@@ -61,11 +62,11 @@
 </head>
 <body>
 <%--页头--%>
-<div class="jumbotron text-center" style="margin-bottom: 0 ;background:#dedede">
+<div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
     <img src="../imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -73,11 +74,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand " href="#">SECRET</a>
+            <a class="navbar-brand ">SECRET</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">
+                <li class="active"><a class="animated  bounceInDown">
                     <span class="glyphicon glyphicon-th-large " style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
                 <li><a href="help-secret.jsp">
@@ -92,7 +93,6 @@
         </div>
     </div>
 </nav>
-
 <%--插图--%>
 <div class="carousel slide" id="carousel-390053">
     <ol class="carousel-indicators">
@@ -150,7 +150,6 @@
         </div>
     </div> <a class="left carousel-control" href="#carousel-390053" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-390053" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
-
 <%--详细介绍--%>
     <div class="row clearfix" style="margin: 0px">
         <div class="col-md-12 column">
@@ -161,10 +160,11 @@
                             S E C R E T !
                         </h1>
                         <p>
-                            详细描述。。。。。
+                            详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。
                         </p>
                         <p>
-                            <a class="btn btn-primary btn-large btn-success btn-default " href="#">即刻体验</a>
+                            <a class="btn btn-primary btn-large btn-success btn-default " href="#">
+                                即刻体验</a>
                         </p>
                     </div>
                 </div>
@@ -174,10 +174,11 @@
                             S E C R E T !
                         </h1>
                         <p>
-                            详细描述。。。。。
+                            详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。详细描述。。。。。
                         </p>
                         <p>
-                            <a class="btn btn-primary btn-large btn-success btn-default " href="#">即刻体验</a>
+                            <a class="btn btn-primary btn-large btn-success btn-default " href="#">
+                                了解更多</a>
                         </p>
                     </div>
                 </div>

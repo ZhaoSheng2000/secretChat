@@ -9,12 +9,14 @@
 <html>
 <head>
     <title>A B O U T</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <style>
         body{
             padding: 100px;
+            background-color: #eeeeee;
 
         }
 
@@ -61,11 +63,11 @@
 </head>
 <body>
 <%--页头--%>
-<div class="jumbotron text-center" style="margin-bottom: 0 ;background:#dedede">
+<div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
     <img src="../imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -77,13 +79,13 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="welcome-secret.jsp">
+                <li><a href="welcome-secret.jsp">
                     <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
                 <li><a href="help-secret.jsp">
                     <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
                 </a></li>
-                <li><a href="#">
+                <li class="active"><a class="animated  bounceInDown">
                     <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
                 <li><a href="ConnectWithMe-secret.jsp">
                     <span class="glyphicon glyphicon-user" style="color: #9d9d9d; font-size: 15px;"> 联系</span>
@@ -92,6 +94,65 @@
         </div>
     </div>
 </nav>
+
+<%--分栏--%>
+
+<%--详细介绍--%>
+<div class="row clearfix" style="margin: 0px">
+    <div class="col-md-12 column">
+        <div class="row clearfix">
+            <div class="col-md-6 column" style="padding: 0px">
+                <div class="jumbotron"
+                     style="padding: 15px;border-left-width: 0px;border-left-style: solid;padding-left: 30px;">
+                    <h1>
+                        设计理念
+                    </h1>
+                    <br>
+                    <p >
+                        本网站使用bootstrap构架和animate.css动画制作。<br><br>
+                        响应式的网页能更好的兼容手机/电脑/平板.<br>
+                        而简洁的布局不会显得冗杂，更容易给人良好的体验。<br>
+                        其实大多时候用户使用手机的时间相对于电脑而言，还是占大多数时间，
+                        但是手机端浏览网页还是有很多的局限性。<br>
+                        现在许多企业都会使用响应式布局写自己的网页。
+                        <br>
+                        在使用bootstrap构架的同时又加入了animate.css的动画效果，显得网站不会太单调。<br><br>
+                        在部分代码上使用了hover属性，增加了页面交互性。<br>
+                        网页整体采用了padding方式的布局，使得界面更加简洁。
+
+                        <%--下面应该贴gif演示图片了，但是现在还没有。--%>
+
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 column" style="padding: 0px">
+                <div class="jumbotron"
+                     style="padding: 15px;border-left-width: 5px;border-left-style: solid;padding-left: 30px;">
+                    <h1>
+                        软件功能
+                    </h1>
+                    <br>
+                    <p>
+                        软件功能---<br>
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+                        软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---软件功能---
+
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <%--left-top--%>
 <div class="left-top">

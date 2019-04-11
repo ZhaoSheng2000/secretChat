@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -15,7 +16,7 @@
     <style>
         body{
             padding: 100px;
-
+            background-color: #eeeeee;
         }
 
         .footer_banquan{
@@ -62,11 +63,11 @@
 <body>
 <%--页头--%>
 <%--页头--%>
-<div class="jumbotron text-center" style="margin-bottom: 0 ;background:#dedede">
+<div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
     <img src="../imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -78,10 +79,10 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="welcome-secret.jsp">
+                <li><a href="welcome-secret.jsp">
                     <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
-                <li><a href="#">
+                <li class="active"><a class="animated  bounceInDown">
                     <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
                 </a></li>
                 <li><a href="about-secret.jsp">
