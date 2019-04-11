@@ -74,7 +74,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand ">SECRET</a>
+            <a class="navbar-brand animated jackInTheBox">SECRET</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
