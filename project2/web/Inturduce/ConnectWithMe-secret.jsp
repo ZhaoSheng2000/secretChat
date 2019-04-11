@@ -24,10 +24,7 @@
             padding:20px;
             display:none;
         }
-        #map{
-            margin: 10px;
-            text-align: center;
-        }
+
         body{
             padding: 100px;
 
@@ -116,8 +113,8 @@
     <li>E-MAIL:zs17337825170@163.com</li>
 </div>
 </div>
-<div id="map">
-    <img src="../imgs/map.png">
+<div class="item">
+    <img alt="" src="../imgs/map.png" width="100%" height="100%">
 </div>
 
     <div class="content-more" style="padding: 80px 20px 80px 20px ;text-align: center">
