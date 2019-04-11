@@ -31,7 +31,6 @@
             padding: 0 15px;
             font-size: 15px;
             color: #929292;
-
         }
         .footer_youlian a:link{text-decoration-line: none;color: #929292}
         .footer_youlian a:hover{text-decoration-line: none;color: blue;}
@@ -63,10 +62,7 @@
 <body>
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#dedede">
-    <img src="../imgs/secret2.png">
-    <blockquote>
-        <small>Talk to others about your secrets<cite title="Source Title"></cite></small>
-    </blockquote>
+    <img src="../imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
 <nav class="navbar navbar-inverse">

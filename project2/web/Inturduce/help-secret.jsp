@@ -61,11 +61,9 @@
 </head>
 <body>
 <%--页头--%>
+<%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#dedede">
-    <img src="../imgs/secret2.png">
-    <blockquote>
-        <small>Talk to others about your secrets<cite title="Source Title"></cite></small>
-    </blockquote>
+    <img src="../imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
 <nav class="navbar navbar-inverse">
