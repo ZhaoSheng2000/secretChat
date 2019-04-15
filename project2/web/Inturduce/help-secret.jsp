@@ -15,7 +15,7 @@
     <title>H E L P</title>
     <style>
         body{
-            padding: 100px;
+            padding:0px 100px;
             background-color: #eeeeee;
         }
 

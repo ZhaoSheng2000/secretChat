@@ -15,7 +15,7 @@
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <style>
         body{
-            padding: 100px;
+            padding:0px 100px;
             background-color: #eeeeee;
 
         }
