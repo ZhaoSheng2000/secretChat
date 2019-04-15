@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="item">
-            <img  src="../imgs/top1.jpg" style="opacity:0.6">
+            <img src="../imgs/top1.jpg" style="opacity:0.6">
             <div class="carousel-caption" style="color: #0f0f0f">
                 <h4>
                     我们仍然有很长的距离要走.
