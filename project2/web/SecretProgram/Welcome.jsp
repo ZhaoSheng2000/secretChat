@@ -81,12 +81,12 @@
                 <li class="active"><a class="animated  bounceInDown">
                     <span class="glyphicon glyphicon-th-large " style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
-                <li><a href="help-secret.jsp">
+                <li><a href="Help.jsp">
                     <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
                 </a></li>
-                <li><a href="about-secret.jsp">
+                <li><a href="About.jsp">
                     <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
-                <li><a href="ConnectWithMe-secret.jsp">
+                <li><a href="ConnectWithMe.jsp">
                     <span class="glyphicon glyphicon-user" style="color: #9d9d9d; font-size: 15px;"> 联系</span>
                 </a></li>
             </ul>
@@ -192,7 +192,7 @@
                             我们的身体记得，我们的神经状态记得。但我们不记得。
                         </p>
                         <p>
-                            <a class="btn btn-primary btn-large btn-success btn-default " href="help-secret.jsp">
+                            <a class="btn btn-primary btn-large btn-success btn-default " href="Help.jsp">
                                 了解更多</a>
                         </p>
                     </div>

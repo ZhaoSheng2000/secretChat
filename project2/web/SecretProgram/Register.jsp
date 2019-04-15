@@ -67,12 +67,12 @@
 <%--body4:8布局--%>
 <div class="container">
     <div class="row clearfix">
-        <div class="col-md-4 column">
+        <div class="col-md-6 column">
 
         </div>
-        <div class="col-md-8 column">
+        <div class="col-md-6 column">
             <h3 class=" text-center">
-                加入SECRET！
+                现在加入SECRET！
             </h3><br>
             <form class="form-horizontal" role="form">
 
@@ -97,14 +97,13 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Sign in</button>
+                        <button type="submit" class="btn btn-default btn-success">注册</button>
                     </div>
                 </div>
             </form>
         </div>
         </div>
     </div>
-</div>
 
 <%--left-top--%>
 <div class="left-top">

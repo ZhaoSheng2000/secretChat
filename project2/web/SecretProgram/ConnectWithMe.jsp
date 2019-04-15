@@ -92,13 +92,13 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li><a href="welcome-secret.jsp">
+                <li><a href="Welcome.jsp">
                     <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
-                <li><a href="help-secret.jsp">
+                <li><a href="Help.jsp">
                     <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
                 </a></li>
-                <li><a href="about-secret.jsp">
+                <li><a href="About.jsp">
                     <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
                 <li class="active"><a class="animated  bounceInDown">
                     <span class="glyphicon glyphicon-user" style="color: #9d9d9d; font-size: 15px;"> 联系</span>
