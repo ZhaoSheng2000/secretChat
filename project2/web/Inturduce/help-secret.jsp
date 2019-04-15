@@ -61,7 +61,7 @@
     </style>
 </head>
 <body>
-<%--页头--%>
+
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
     <img src="../imgs/logo.png">
@@ -94,6 +94,51 @@
         </div>
     </div>
 </nav>
+<%--介绍--%>
+<div class="row">
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="../imgs/logo.png"/>
+            <div class="caption">
+                <h3>
+                    沉溺安宁，独伴时光。
+                </h3>
+                <p>
+                    没有其他任何东西打扰。沉溺安宁，发现共鸣。
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="../imgs/logo.png"/>
+            <div class="caption">
+                <h3>
+                    跨平台
+                </h3>
+                <p>
+                    你不仅可以在各类终端上聊天，还能随时随地收发重要文件。<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="../imgs/logo.png"/>
+            <div class="caption">
+                <h3>
+                    轻量
+                </h3>
+                <p>
+                    无需下载臃肿的客户端，告别卡顿。
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <%--left-top--%>
 <div class="left-top">

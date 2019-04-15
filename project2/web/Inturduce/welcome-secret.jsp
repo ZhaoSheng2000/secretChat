@@ -192,7 +192,7 @@
                             我们的身体记得，我们的神经状态记得。但我们不记得。
                         </p>
                         <p>
-                            <a class="btn btn-primary btn-large btn-success btn-default " href="#">
+                            <a class="btn btn-primary btn-large btn-success btn-default " href="help-secret.jsp">
                                 了解更多</a>
                         </p>
                     </div>
