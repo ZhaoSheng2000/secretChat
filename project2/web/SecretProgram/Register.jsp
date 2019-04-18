@@ -15,7 +15,6 @@
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <style>
         body{
-            padding: 0px 100px;
             background-color: #eeeeee;
 
         }
@@ -64,8 +63,8 @@
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
     <img src="../imgs/logo.png">
 </div>
-<%--body4:8布局--%>
-<div class="container">
+<%--body 6：6布局--%>
+<div class="container" style="padding:0px 100px">
     <div class="row clearfix">
         <div class="col-md-6 column">
 
@@ -77,13 +76,18 @@
             <form class="form-horizontal" role="form">
 
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">邮箱地址</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">
+                        <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
+                        账号</label>
                     <div class="col-sm-10">
                         <input type="email" class="form-control" id="inputEmail3" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">
+                        <span class="glyphicon glyphicon-lock" style="color: rgb(0, 0, 0); font-size: 15px;"></span>
+                        密码</label>
+                    <%--未实现验证是否为空格--%>
                     <div class="col-sm-10">
                         <input type="password" class="form-control" id="inputPassword3" />
                     </div>
@@ -97,7 +101,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default btn-success">注册</button>
+                        <button type="submit" class="btn btn-default btn-success ">登陆</button>
                     </div>
                 </div>
             </form>
