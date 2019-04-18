@@ -11,12 +11,15 @@
     <title>加入secret</title>
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrapValidator.css">
     <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrapValidator.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/language/zh_CN.js"></script>
     <style>
         body{
             background-color: #eeeeee;
-
+            padding:0px 100px;
         }
 
         .footer_banquan{
@@ -64,51 +67,154 @@
     <img src="../imgs/logo.png">
 </div>
 <%--body 6：6布局--%>
-<div class="container" style="padding:0px 100px">
-    <div class="row clearfix">
+<div class="container">
+    <div class="row clearfix" style="float: left">
         <div class="col-md-6 column">
-
+              <%--左侧图片,轮播时间改为3秒--%>
+                  <div class="carousel slide " data-interval="3000" id="carousel-390053">
+                      <div class="carousel-inner">
+                          <div class="item active">
+                              <img  src="../imgs/login1.jpg">
+                          </div>
+                          <div class="item">
+                              <img  src="../imgs/login2.jpg">
+                          </div>
+                          <div class="item">
+                              <img src="../imgs/login3.jpg">
+                          </div>
+                      </div> <a class="left carousel-control" href="#carousel-390053" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-390053" data-slide="next"></a>
+                  </div>
         </div>
         <div class="col-md-6 column">
-            <h3 class=" text-center">
+            <h3 class=" text-center" style="margin-top: 0px;margin-bottom: 0px;">
                 现在加入SECRET！
             </h3><br>
-            <form class="form-horizontal" role="form">
 
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">
-                        <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
-                        账号</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" />
+                    <%--注册登陆表单--%>
+            <div class="tabbable" id="tabs-435987">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#panel-238386" data-toggle="tab">注册</a>
+                    </li>
+                    <li>
+                        <a href="#panel-510021" data-toggle="tab">登陆</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="panel-238386">
+                        <br>
+                        <br>
+                        <br>
+                        <form class="form-horizontal" role="form" id="RegisterForm">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">
+                                    <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
+                                    昵称</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="user"
+                                           placeholder="昵称由2-12位字符组成"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">
+                                    <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
+                                    账号</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="username1"
+                                           placeholder="账号由2-10位字符组成"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">
+                                    <span class="glyphicon glyphicon-lock"
+                                          style="color: rgb(0, 0, 0); font-size: 15px;"></span>
+                                    密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="password1"
+                                           placeholder="密码由6-18位数字或字母构成"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-info btn-block ">立即注册</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane" id="panel-510021">
+                        <br>
+                        <br>
+                        <br>
+                        <form class="form-horizontal" role="form" id="loginForm">
+                            <div class="form-group">
+                                <label for="username" class="col-sm-2 control-label">
+                                    <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
+                                    账号</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="username" name="username2"
+                                           placeholder="账号由2-10位字符组成"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">
+                                    <span class="glyphicon glyphicon-lock"
+                                          style="color: rgb(0, 0, 0); font-size: 15px;"></span>
+                                    密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" name="password2"
+                                           placeholder="密码由6-18位数字或字母构成"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox"/>Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-info btn-block">登陆</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">
-                        <span class="glyphicon glyphicon-lock" style="color: rgb(0, 0, 0); font-size: 15px;"></span>
-                        密码</label>
-                    <%--未实现验证是否为空格--%>
-                    <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <div class="checkbox">
-                            <label><input type="checkbox" />Remember me</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default btn-success ">登陆</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+            </div>
         </div>
     </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#RegisterForm').bootstrapValidator({
+            message: 'This value is not valid',
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                user: {
+                    validators: {
+                        notEmpty: {
+                            message: '昵称不能为空！'
+                        },
+                        stringLength: {
+                            min: 2,
+                            max: 12,
+                            message: '长度必须在2-12之间！'
+                        },
+                        regexp: {   //正则验证
+                            regexp: /^[a-zA-Z0-9_.]+$/,
+                            message: '所输入的字符不符要求'
+                        },
+                    }
+                },
+            }
+        })
 
+    });
+</script>
 <%--left-top--%>
 <div class="left-top">
     <p>- NO WORRIES -</p>

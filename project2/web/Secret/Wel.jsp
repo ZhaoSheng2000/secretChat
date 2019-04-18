@@ -94,7 +94,7 @@
     </div>
 </nav>
 <%--插图--%>
-<div class="carousel slide" id="carousel-390053">
+<div class="carousel slide"  id="carousel-390053">
     <ol class="carousel-indicators">
         <li class="active" data-slide-to="0" data-target="#carousel-390053">
         </li>
@@ -139,7 +139,7 @@
             </div>
         </div>
 
-    </div> <a class="left carousel-control" href="#carousel-390053" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-390053" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div> <a class="left carousel-control" href="#carousel-390053" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-390053" data-slide="next"></a>
 </div>
 <%--详细介绍--%>
     <div class="row clearfix" style="margin: 0px">
