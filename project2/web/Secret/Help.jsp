@@ -79,7 +79,7 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li><a href="Welcome.jsp">
+                <li><a href="Wel.jsp">
                     <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
                 <li class="active"><a class="animated  bounceInDown">

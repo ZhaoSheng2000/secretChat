@@ -1,42 +1,31 @@
 <%--
   Created by IntelliJ IDEA.
-  User: king
-  Date: 2019/3/30
-  Time: 17:50
+  User: mac
+  Date: 2019-04-08
+  Time: 17:19
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <title>A B O U T</title>
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <title>CONNECTED WITH ME</title>
-    <style type="text/css">
-        #flip{
-            text-align: center;
-        }
-        #panel
-        {
-            text-align:center;
-            background-color: aliceblue;
-            border:solid 1px #c3c3c3;
-            padding:20px;
-            display:none;
-        }
-
+    <style>
         body{
             padding:0px 100px;
             background-color: #eeeeee;
 
         }
-         .footer_banquan{
-             float: right;
-             font-size: 15px;
-             padding: 0 15px;
-             color: #929292;
-         }
+
+        .footer_banquan{
+            float: right;
+            font-size: 15px;
+            padding: 0 15px;
+            color: #929292;
+        }
         .footer_youlian{
             float: left;
             margin-left: 45%;
@@ -72,8 +61,6 @@
         }
     </style>
 </head>
-<title>WELCOME</title>
-</head>
 <body>
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
@@ -92,15 +79,15 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavibar">
             <ul class="nav navbar-nav">
-                <li><a href="Welcome.jsp">
+                <li><a href="Wel.jsp">
                     <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
                 <li><a href="Help.jsp">
                     <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
                 </a></li>
-                <li><a href="About.jsp">
-                    <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
                 <li class="active"><a class="animated  bounceInDown">
+                    <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
+                <li><a href="ConnectWithMe.jsp">
                     <span class="glyphicon glyphicon-user" style="color: #9d9d9d; font-size: 15px;"> 联系</span>
                 </a></li>
             </ul>
@@ -108,41 +95,70 @@
     </div>
 </nav>
 
-<div class="col-md-12 column" id="flip">
-    <button type="button" class="btn btn-primary btn-sm">联系我</button>
-<div id="panel"><li>ADDRESS:中国，河南省，郑州市，中原区</li>
-    <li>PHONE:17337825170</li>
-    <li>E-MAIL:zs17337825170@163.com</li>
-</div>
-</div>
-<div class="item">
-    <img alt="" src="../imgs/map.png" width="100%" height="100%">
-</div>
+<%--分栏--%>
 
-    <div class="content-more" style="padding: 80px 20px 80px 20px ;text-align: center">
-        <div class="contant-right-bg">
-            <div class="contact-more">
-                <ul style="list-style: none">
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h5>ADDRESS</h5>
-                        <p>中国，河南省，郑州市，中原区</p>
-                    </li>
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h5>PHONE</h5>
-                        <p>17337825170</p>
-                    </li>
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h5>E-MAIL</h5>
-                        <p>zs17337825170@163.com</p>
-                    </li>
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h5>WE CHAT</h5>
-                        <p>小盛资源库</p>
-                    </li>
-                </ul>
+<%--详细介绍--%>
+<div class="row clearfix" style="margin: 0px">
+    <div class="col-md-12 column">
+        <div class="row clearfix">
+            <div class="col-md-6 column" style="padding: 0px">
+                <div class="jumbotron"
+                     style="padding: 15px;border-left-width: 0px;border-left-style: solid;padding-left: 30px;">
+                    <h1>
+                        设计理念
+                    </h1>
+                    <br>
+                    <p >
+                        本网站使用bootstrap构架和animate.css动画制作。<br><br>
+                        响应式的网页能更好的兼容手机/电脑/平板.<br>
+                        而简洁的布局不会显得冗杂，更容易给人良好的体验。<br>
+                        其实大多时候用户使用手机的时间相对于电脑而言，还是占大多数时间，
+                        但是手机端浏览网页还是有很多的局限性。<br>
+                        <br>
+                        在使用bootstrap构架的同时又加入了animate.css的动画效果，显得网站不会太单调。<br><br>
+                        在部分代码上使用了hover属性，增加了页面交互性。<br>
+                        网页整体采用了padding方式的布局，使得界面更加简洁。
+
+                        <%--下面应该贴gif演示图片了，但是现在还没有。--%>
+
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 column" style="padding: 0px">
+                <div class="jumbotron"
+                     style="padding: 15px;border-left-width: 5px;border-left-style: solid;padding-left: 30px;">
+
+                    <br>
+                    <p>
+                        我必须承认生命中<br>
+                        大部分时光是孤独的，<br>
+                        努力成长是在孤独里<br>
+                        可以进行的最好的游戏。<br>
+                        -绿川幸《夏目友人账》-<br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        没有人生活在过去，<br>
+                        也没有人生活在未来，<br>
+                        现在是生命确实占有的唯一形态。<br>
+                        ——叔本华<br>
+
+
+
+
+
+                    </p>
+
+                </div>
             </div>
         </div>
     </div>
+</div>
 
 <%--left-top--%>
 <div class="left-top">
@@ -152,7 +168,6 @@
 <div class="right-top">
     <p> - HAPPY EVERY DAY - </p>
 </div>
-
 <%--footer--%>
 <div class="jumbotron text-center" style="padding: 70px">
     <div class="footer">
@@ -162,12 +177,5 @@
         </div>
     </div>
 </div>
-
-<script>
-    $(document).ready(function(){
-        $("#flip").click(function(){
-            $("#panel").slideToggle("slow");
-        });
-    });
-</script>
+</body>
 </html>
