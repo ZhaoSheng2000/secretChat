@@ -62,8 +62,8 @@
 </head>
 <body>
 <%--页头--%>
-<div class="jumbotron text-center animated flip " style="margin-bottom: 0 ;background:#eeeeee">
-    <img src="../imgs/logo.png">
+<div class="jumbotron text-center  " style="margin-bottom: 0 ;background:#eeeeee">
+    <img class="animated flipInX" src="../imgs/logo.png">
 </div>
 <%--body 6：6布局--%>
 <div class="container">

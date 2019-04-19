@@ -64,7 +64,7 @@
 <body>
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
-    <img src="../imgs/logo.png">
+    <img class="animated slideInLeft" src="../imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
 <nav class="navbar navbar-default">
@@ -83,7 +83,7 @@
                     <span class="glyphicon glyphicon-th-large" style="color:#9d9d9d; font-size: 15px;"> 主页</span>
                 </a></li>
                 <li><a href="Help.jsp">
-                    <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 帮助</span>
+                    <span class="glyphicon glyphicon-flag" style="color: #9d9d9d; font-size: 15px;"> 理念</span>
                 </a></li>
                 <li class="active"><a class="animated  bounceInDown">
                     <span class="glyphicon glyphicon-tags" style="color: #9d9d9d; font-size: 15px;"> 关于</span>
