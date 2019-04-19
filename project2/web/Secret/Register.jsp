@@ -39,7 +39,7 @@
         .footer_youlian a:visited{text-decoration-line: none; color: #929292}
         .left-top {
             position: fixed;
-            left: 3.5em;
+            left: 2em;
             top: 60%;
             transform: rotate(-90deg);
             transform-origin: left;
@@ -50,7 +50,7 @@
 
         .right-top {
             position: fixed;
-            right: 3em;
+            right: 2em;
             top: 40%;
             transform: rotate(-90deg);
             transform-origin: right;
