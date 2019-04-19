@@ -145,7 +145,7 @@
                                     密码</label>
                                 <div class="col-sm-10">
                                     <input type="password" class="form-control" name="password1"
-                                           placeholder="密码由6-18位数字或字母构成"/>
+                                           placeholder="密码由6-18位数字或字母组成"/>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -176,7 +176,7 @@
                                     密码</label>
                                 <div class="col-sm-10">
                                     <input type="password" class="form-control" id="inputPassword3" name="password2"
-                                           placeholder="密码由6-18位数字或字母构成"/>
+                                           placeholder="密码由6-18位数字或字母组成"/>
                                 </div>
                             </div>
                             <div class="form-group">
