@@ -19,7 +19,6 @@
     <style>
         body{
             background-color: #eeeeee;
-            padding:0px 100px;
         }
 
         .footer_banquan{
@@ -68,7 +67,7 @@
 </div>
 <%--body 6：6布局--%>
 <div class="container">
-    <div class="row clearfix" style="float: left">
+    <div class="row clearfix">
         <div class="col-md-6 column">
               <%--左侧图片,轮播时间改为3秒--%>
                   <div class="carousel slide " data-interval="3000" id="carousel-390053">
@@ -86,7 +85,7 @@
                   </div>
         </div>
         <div class="col-md-6 column">
-            <h3 class=" text-center" style="margin-top: 0px;margin-bottom: 0px;">
+            <h3 class=" text-center">
                 现在加入SECRET！
             </h3><br>
 
