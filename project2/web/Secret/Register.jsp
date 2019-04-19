@@ -17,26 +17,40 @@
     <script src="../bootstrap-3.3.7-dist/js/bootstrapValidator.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/language/zh_CN.js"></script>
     <style>
-        body{
+        body {
             background-color: #eeeeee;
         }
 
-        .footer_banquan{
+        .footer_banquan {
             float: right;
             font-size: 15px;
             padding: 0 15px;
             color: #929292;
         }
-        .footer_youlian{
+
+        .footer_youlian {
             float: left;
             margin-left: 45%;
             padding: 0 15px;
             font-size: 15px;
             color: #929292;
         }
-        .footer_youlian a:link{text-decoration-line: none;color: #929292}
-        .footer_youlian a:hover{text-decoration-line: none;color: blue;}
-        .footer_youlian a:visited{text-decoration-line: none; color: #929292}
+
+        .footer_youlian a:link {
+            text-decoration-line: none;
+            color: #929292
+        }
+
+        .footer_youlian a:hover {
+            text-decoration-line: none;
+            color: blue;
+        }
+
+        .footer_youlian a:visited {
+            text-decoration-line: none;
+            color: #929292
+        }
+
         .left-top {
             position: fixed;
             left: 2em;
@@ -69,27 +83,28 @@
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-6 column">
-              <%--左侧图片,轮播时间改为3秒--%>
-                  <div class="carousel slide " data-interval="3000" id="carousel-390053">
-                      <div class="carousel-inner">
-                          <div class="item active">
-                              <img  src="../imgs/login1.jpg">
-                          </div>
-                          <div class="item">
-                              <img  src="../imgs/login2.jpg">
-                          </div>
-                          <div class="item">
-                              <img src="../imgs/login3.jpg">
-                          </div>
-                      </div> <a class="left carousel-control" href="#carousel-390053" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-390053" data-slide="next"></a>
-                  </div>
+            <%--左侧图片,轮播时间改为3秒--%>
+            <div class="carousel slide " data-interval="3000" id="carousel-390053">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="../imgs/login1.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="../imgs/login2.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="../imgs/login3.jpg">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-390053" data-slide="prev"></a> <a
+                    class="right carousel-control" href="#carousel-390053" data-slide="next"></a>
+            </div>
         </div>
         <div class="col-md-6 column">
             <h3 class=" text-center">
                 现在加入SECRET！
             </h3><br>
-
-                    <%--注册登陆表单--%>
+            <%--注册登陆表单--%>
             <div class="tabbable" id="tabs-435987">
                 <ul class="nav nav-tabs">
                     <li class="active">
@@ -225,7 +240,7 @@
 <%--footer--%>
 <div class="jumbotron text-center" style="padding: 70px">
     <div class="footer">
-        <div class="footer_youlian"><a href="http://www.zzuli.edu.cn/" target="_blank" >郑州轻工业大学</a></div>
+        <div class="footer_youlian"><a href="http://www.zzuli.edu.cn/" target="_blank">郑州轻工业大学</a></div>
         <div class="footer_banquan">
             Copyright 2019 © All Rights Reserved.
         </div>
