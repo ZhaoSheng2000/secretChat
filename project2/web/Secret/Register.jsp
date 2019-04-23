@@ -150,7 +150,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-info btn-block ">立即注册</button>
+                                    <button type="submit" name="submit" class="btn btn-info btn-block ">立即注册</button>
                                 </div>
                             </div>
                         </form>
@@ -209,6 +209,7 @@
             },
             fields: {
                 user: {
+                    message: '验证失败',
                     validators: {
                         notEmpty: {
                             message: '昵称不能为空！'
@@ -221,11 +222,11 @@
                         regexp: {   //正则验证
                             regexp: /^[a-zA-Z0-9_.]+$/,
                             message: '所输入的字符不符要求'
-                        },
+                        }
                     }
                 },
             }
-        })
+        });
 
     });
 </script>
