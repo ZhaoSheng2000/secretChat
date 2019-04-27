@@ -36,5 +36,6 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="websocket-api" level="project" />
   </component>
 </module>
