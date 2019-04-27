@@ -84,7 +84,7 @@
     <div class="row clearfix">
         <div class="col-md-6 column">
             <%--左侧图片,轮播时间改为3秒--%>
-            <div class="carousel slide " data-interval="3000" id="carousel-390053">
+            <div class="carousel slide " data-ride="carousel" data-interval="3000" id="carousel-390053">
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="../imgs/login1.jpg">

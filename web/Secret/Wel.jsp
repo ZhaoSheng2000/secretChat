@@ -94,7 +94,7 @@
     </div>
 </nav>
 <%--插图--%>
-<div class="carousel slide"  id="carousel-390053">
+<div class="carousel slide" data-ride="carousel" id="carousel-390053">
     <ol class="carousel-indicators">
         <li class="active" data-slide-to="0" data-target="#carousel-390053">
         </li>
