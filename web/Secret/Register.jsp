@@ -126,7 +126,7 @@
                                     昵称</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" name="user"
-                                           placeholder="昵称由2-12位字符组成"/>
+                                           placeholder="昵称由2-6位字符组成"/>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -150,7 +150,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" name="submit" class="btn btn-info btn-block ">立即注册</button>
+                                    <button type="submit" name="submit" id="submit" class="btn btn-info btn-block ">立即注册</button>
                                 </div>
                             </div>
                         </form>
@@ -216,7 +216,7 @@
                         },
                         stringLength: {
                             min: 2,
-                            max: 12,
+                            max: 6,
                             message: '长度必须在2-12之间！'
                         },
                         regexp: {   //正则验证

@@ -157,29 +157,9 @@
                             我的建议是：出发吧。给你的宇宙套上马鞍，看它会变成什么样。
                         </p>
                         <p>
-                            <a class="btn btn-primary btn-large btn-success btn-default "  id="modal-567947" href="#modal-container-567947" role="button" class="btn" data-toggle="modal">
+                            <a class="btn  btn-large btn-success  "  id="modal-567947" href="Register.jsp" role="button">
                                 即刻体验</a>
                         </p>
-
-                        <%--遮罩窗体--%>
-                        <div class="modal fade" id="modal-container-567947" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                        <h4 class="modal-title" id="myModalLabel">
-                                            S O R R Y
-                                        </h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        登陆界面还未就绪😯😯😯
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 column" style="padding: 0px">
