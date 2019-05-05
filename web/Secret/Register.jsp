@@ -119,13 +119,13 @@
                         <br>
                         <br>
                         <br>
-                        <form class="form-horizontal" role="form" id="RegisterForm">
+                        <form class="form-horizontal" role="form" id="RegisterForm" action="RegisterServlet" method="post">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
                                     昵称</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="user"
+                                    <input type="text" class="form-control" name="nickName"
                                            placeholder="昵称由2-6位字符组成"/>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
                                     账号</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="username1"
+                                    <input type="text" class="form-control" name="userName1"
                                            placeholder="账号由2-10位字符组成"/>
                                 </div>
                             </div>
@@ -159,13 +159,13 @@
                         <br>
                         <br>
                         <br>
-                        <form class="form-horizontal" role="form" id="loginForm">
+                        <form class="form-horizontal" role="form" id="loginForm" action="LoginServlet" method="post`">
                             <div class="form-group">
                                 <label for="username" class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
                                     账号</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="username" name="username2"
+                                    <input type="text" class="form-control" id="username" name="userName2"
                                            placeholder="账号由2-10位字符组成"/>
                                 </div>
                             </div>
@@ -198,6 +198,7 @@
         </div>
     </div>
 </div>
+<%--
 <script type="text/javascript">
     $(document).ready(function () {
         $('#RegisterForm').bootstrapValidator({
@@ -230,6 +231,7 @@
 
     });
 </script>
+--%>
 <%--left-top--%>
 <div class="left-top">
     <p>- NO WORRIES -</p>

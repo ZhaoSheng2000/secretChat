@@ -17,8 +17,8 @@
     <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/wangEditor.min.js"></script>
     <script type="text/javascript">
         //创建Websocket对象
-        var webSocket = new WebSocket("ws://10.85.15.20:8080/chatSocket");
-        webSocket.onerror = function(ev){
+        var webSocket = new WebSocket("ws://localhost:8080/chatSocket");
+        webSocket.onerror = function(){
             alert('websocket连接失败');
         };
         webSocket.onopen = function () {
