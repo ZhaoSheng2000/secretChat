@@ -119,7 +119,7 @@
                         <br>
                         <br>
                         <br>
-                        <form class="form-horizontal" role="form" id="RegisterForm" action="RegisterServlet" method="post">
+                        <form class="form-horizontal" role="form" id="RegisterForm" action="/RegisterServlet" method="post">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
@@ -159,7 +159,7 @@
                         <br>
                         <br>
                         <br>
-                        <form class="form-horizontal" role="form" id="loginForm" action="LoginServlet" method="post`">
+                        <form class="form-horizontal" role="form" id="loginForm" action="/LoginServlet" method="post">
                             <div class="form-group">
                                 <label for="username" class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>

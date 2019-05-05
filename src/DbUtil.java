@@ -12,7 +12,7 @@ public class DbUtil {
      */
     private String dbUrl = "jdbc:mysql://localhost:3306/secret";
     private String dbUserName = "root";
-    private String dbPassword = "123456789";
+    private String dbPassword = "password";
 
     private String jdbcName = "com.mysql.cj.jdbc.Driver";
 

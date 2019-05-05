@@ -20,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
              * password2
              *
              */
+            System.out.println("12345fasdfasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd");
             String userName2 = request.getParameter("userName2");
             String password2 = request.getParameter("password2");
             DbUtil dbUti = new DbUtil();
@@ -28,9 +29,9 @@ import javax.servlet.http.HttpServletResponse;
             try {
                 Connection connection = dbUti.getCon();
                 if (dao.login(connection,userL)!=null){
-                    response.sendRedirect("chat.jsp");
+                    response.sendRedirect("Secret/chat.jsp");
                 }else {
-                    response.sendRedirect("Register.jsp");
+                    response.sendRedirect("Secret/Register.jsp");
                 }
 
             }catch (Exception e){

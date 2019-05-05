@@ -31,7 +31,7 @@ public class RegisterServlet extends HttpServlet{
         try {
             Connection connection = dbUtil.getCon();
             if (dao.register(connection, userR)){
-                response.sendRedirect("chat.jsp");
+                response.sendRedirect("Secret/chat.jsp");
             }
         }catch (Exception e){
             e.printStackTrace();
