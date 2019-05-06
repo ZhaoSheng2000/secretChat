@@ -9,10 +9,10 @@
 <html>
 <head>
     <title>S E C R E T</title>
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/animate.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <style>
         body{
             padding: 0px 100px;
@@ -40,7 +40,7 @@
         .left-top {
             position: fixed;
             left: 3.5em;
-            top: 60%;
+            top: 350px;
             transform: rotate(-90deg);
             transform-origin: left;
             color: #999;
@@ -51,7 +51,7 @@
         .right-top {
             position: fixed;
             right: 3em;
-            top: 40%;
+            top: 250px;
             transform: rotate(-90deg);
             transform-origin: right;
             color: #999;
@@ -63,7 +63,7 @@
 <body>
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
-    <img class="animated slideInLeft" src="../imgs/logo.png">
+    <img class="animated slideInLeft" src="imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
 <nav class="navbar navbar-default">
@@ -105,7 +105,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img  src="../imgs/top3.jpg">
+            <img  src="imgs/top3.jpg">
             <div class="carousel-caption" style="color: #929292">
                 <h4>
                     我不愿只是轻松地融入，成为面目模糊的那一个.<br>
@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="item">
-            <img  src="../imgs/top2.jpg">
+            <img  src="imgs/top2.jpg">
             <div class="carousel-caption" style="color: #0f0f0f">
                 <h4>
                     "你去外面散散心吧。"上帝说。<br>
@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="../imgs/top1.jpg" style="opacity:0.6">
+            <img src="imgs/top1.jpg" style="opacity:0.6">
             <div class="carousel-caption" style="color: #0f0f0f">
                 <h4>
                     我们仍然有很长的距离要走.
@@ -157,7 +157,7 @@
                             我的建议是：出发吧。给你的宇宙套上马鞍，看它会变成什么样。
                         </p>
                         <p>
-                            <a class="btn  btn-large btn-success  "  id="modal-567947" href="Register.jsp" role="button">
+                            <a class="btn  btn-large btn-success  " id="modal-567947" href="Register.jsp" role="button">
                                 即刻体验</a>
                         </p>
                     </div>

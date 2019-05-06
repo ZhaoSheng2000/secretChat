@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/animate.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <title>CONNECTED WITH ME</title>
     <style type="text/css">
         #flip{
@@ -77,7 +77,7 @@
 <body>
 <%--页头--%>
 <div class="jumbotron text-center" style="margin-bottom: 0 ;background:#eeeeee">
-    <img class="animated slideInLeft" src="../imgs/logo.png">
+    <img class="animated slideInLeft" src="imgs/logo.png">
 </div>
 <%--以下是导航栏--%>
 <nav class="navbar navbar-default">
@@ -116,7 +116,7 @@
 </div>
 </div>
 <div class="item">
-    <img alt="" src="../imgs/map.png" width="100%" height="100%">
+    <img alt="" src="imgs/map.png" width="100%" height="100%">
 </div>
 
     <div class="content-more" style="padding: 80px 20px 80px 20px ;text-align: center">

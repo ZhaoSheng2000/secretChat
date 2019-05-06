@@ -9,13 +9,14 @@
 <html>
 <head>
     <title>加入secret</title>
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrapValidator.css">
-    <script src="../bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/bootstrapValidator.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/language/zh_CN.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/animate.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrapValidator.css">
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrapValidator.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/language/zh_CN.js"></script>
     <style>
         body {
             background-color: #eeeeee;
@@ -77,7 +78,7 @@
 <body>
 <%--页头--%>
 <div class="jumbotron text-center  " style="margin-bottom: 0 ;background:#eeeeee">
-    <img class="animated flipInX" src="../imgs/logo.png">
+    <img class="animated flipInX" src="imgs/logo.png">
 </div>
 <%--body 6：6布局--%>
 <div class="container">
@@ -87,13 +88,13 @@
             <div class="carousel slide " data-ride="carousel" data-interval="3000" id="carousel-390053">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="../imgs/login1.jpg">
+                        <img src="imgs/login1.jpg">
                     </div>
                     <div class="item">
-                        <img src="../imgs/login2.jpg">
+                        <img src="imgs/login2.jpg">
                     </div>
                     <div class="item">
-                        <img src="../imgs/login3.jpg">
+                        <img src="imgs/login3.jpg">
                     </div>
                 </div>
                 <a class="left carousel-control" href="#carousel-390053" data-slide="prev"></a> <a
@@ -119,7 +120,8 @@
                         <br>
                         <br>
                         <br>
-                        <form class="form-horizontal" role="form" id="RegisterForm" action="/RegisterServlet" method="post">
+                        <%--注册表单--%>
+                        <form id="RegistrationForm" class="form-horizontal"   action="/RegisterServlet" method="post">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
@@ -129,6 +131,7 @@
                                            placeholder="昵称由2-6位字符组成"/>
                                 </div>
                             </div>
+
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"></span>
@@ -138,6 +141,7 @@
                                            placeholder="账号由2-10位字符组成"/>
                                 </div>
                             </div>
+
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
                                     <span class="glyphicon glyphicon-lock"
@@ -148,6 +152,7 @@
                                            placeholder="密码由6-18位数字或字母组成"/>
                                 </div>
                             </div>
+
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
                                     <button type="submit" name="submit" id="submit" class="btn btn-info btn-block ">立即注册</button>
@@ -198,40 +203,65 @@
         </div>
     </div>
 </div>
-<%--
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#RegisterForm').bootstrapValidator({
-            message: 'This value is not valid',
+
+<script>
+    $(document).ready(function() {
+        $('#registrationForm').bootstrapValidator({
             feedbackIcons: {
                 valid: 'glyphicon glyphicon-ok',
                 invalid: 'glyphicon glyphicon-remove',
                 validating: 'glyphicon glyphicon-refresh'
             },
             fields: {
-                user: {
-                    message: '验证失败',
+                userName1: {
+                    message: 'The username is not valid',
                     validators: {
                         notEmpty: {
-                            message: '昵称不能为空！'
+                            message: 'The username is required and cannot be empty'
                         },
                         stringLength: {
-                            min: 2,
-                            max: 6,
-                            message: '长度必须在2-12之间！'
+                            min: 6,
+                            max: 30,
+                            message: 'The username must be more than 6 and less than 30 characters long'
                         },
-                        regexp: {   //正则验证
-                            regexp: /^[a-zA-Z0-9_.]+$/,
-                            message: '所输入的字符不符要求'
+                        regexp: {
+                            regexp: /^[a-zA-Z0-9]+$/,
+                            message: 'The username can only consist of alphabetical and number'
+                        },
+                        different: {
+                            field: 'password1',
+                            message: 'The username and password cannot be the same as each other'
                         }
                     }
                 },
+                password1: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The password is required and cannot be empty'
+                        },
+                        different: {
+                            field: 'userName1',
+                            message: 'The password cannot be the same as username'
+                        },
+                        stringLength: {
+                            min: 8,
+                            message: 'The password must have at least 8 characters'
+                        }
+                    }
+                },
+
+                gender: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The gender is required'
+                        }
+                    }
+                }
             }
         });
-
     });
 </script>
---%>
+
 <%--left-top--%>
 <div class="left-top">
     <p>- NO WORRIES -</p>

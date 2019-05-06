@@ -27,8 +27,9 @@ public class Dao {
      */
     public boolean register(Connection connection, userR userR)throws Exception{
         boolean flag = false;
+
         PreparedStatement preparedStatement =null;
-        String sql = "insert into userform(userid,userName,password)values(?,?,?)";
+        String sql = "insert ignore into userform(userid,userName,password)values(?,?,?)";
         preparedStatement = connection.prepareStatement(sql);
         preparedStatement.setString(1,userR.getUserid());
         preparedStatement.setString(2,userR.getUserName());
@@ -36,6 +37,7 @@ public class Dao {
         if (preparedStatement.executeUpdate()>0){
             flag = true;
         }
+
         return flag;
     }
 }
