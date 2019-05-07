@@ -27,7 +27,7 @@
             return currentdate;
         }
         //创建Websocket对象
-        var webSocket = new WebSocket("ws://10.85.15.20:8080/chatSocket");
+        var webSocket = new WebSocket("ws://localhost:8080/chatSocket");
 
 
         webSocket.onerror = function(){
@@ -36,8 +36,8 @@
         webSocket.onopen = function () {
             webSocket.onmessage = function (event) {
                 //document.getElementById('show').innerHTML="<div  style='float: right'>" +document.getElementById('show').innerText+ getNowFormatDate()+"<br>"+event.data+"</div><br> "
-                document.getElementById('show').innerHTML+=getNowFormatDate()+ "<br> "+event.data+"<br>"
-                document.getElementById('show').innerHTML=
+                //document.getElementById('show').innerHTML+=getNowFormatDate()+ "<br> "+event.data+"<br>"
+                document.getElementById('show').innerHTML= document.getElementById('show').innerHTML+getNowFormatDate()+ "<br> "+event.data+"<br>"
             }
         };
     </script>
